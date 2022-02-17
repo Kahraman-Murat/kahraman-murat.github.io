@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Murat Kahraman</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./files/site.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body, h1, h2, h3, h4, h5, h6 {
+            font-family: "Raleway", sans-serif
+        }
+    </style>
+</head>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+    <!-- Sidebar/menu -->
+    <nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index: 3; width: 300px; display: none;" id="mySidebar">
+        <br>
+        <div class="w3-container">
+            <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+                <i class="fa fa-remove"></i>
+            </a>
+            <img src="./files/avatar_g2.jpg" title="Murat Kahraman" style="width:45%;" class="w3-round"><br><br>
+            <h4><b>Murat Kahraman</b></h4>
+            <p class="w3-text-grey;">Yazılım Geliştirici</p>
+        </div>
+        <div class="w3-bar-block">
+            <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PROJELER</a>
+            <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>HAKKIMDA</a>
+            <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>İLETİŞİM</a>
+        </div>
+
+    </nav>
+
+    <!-- Overlay effect when opening sidebar on small screens -->
+    <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor: pointer; display: none;" title="close side menu" id="myOverlay"></div>
+
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-main" style="margin-left:300px">
+
+        <!-- Header -->
+        <header id="portfolio">
+            <a href="#"><img src="./files/avatar_g2.jpg" title="Murat Kahraman" style="width: 65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+            <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+            <div class="w3-container">
+                <div></div>
+
+                <div class="clearfix">
+                    <div class="img-container1">
+                        <h1><b>PROJELER</b></h1>
+                    </div>
+                    <div class="img-container">
+                        <a class="w3-white lang" href="index.html" onclick="w3_close()">DE&nbsp;</a>
+                        <!--<img src="./files/deutsch.png" style="width:90%" alt="Alternate Text" />-->
+                    </div>
+                    <div class="img-container">
+                        <a class="w3-white lang" href="index_eng.html" onclick="w3_close()">ENG&nbsp;</a>
+                        <!--<img src="./files/englisch.png" style="width:90%" alt="Alternate Text" />-->
+                    </div>
+                    <div class="img-container">
+                        <a class="w3-black lang" href="index_tr.html" onclick="w3_close()">TR&nbsp;</a>
+                        <!--<img src="./files/turkce.png" style="width:90%" alt="Alternate Text" />-->
+                    </div>
+                </div>
+
+
+
+                <div class="w3-section w3-padding"></div>
+                <div class="w3-third ">
+                    <a class="w3-button w3-black" style="width:80%;" href="#portfolio" onclick="w3_close()"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PROJELER</a>
+                </div>
+                <div class="w3-third ">
+                    <a class="w3-button w3-white" style="width:80%;" href="#about" onclick="w3_close()"><i class="fa fa-user fa-fw w3-margin-right"></i>HAKKIMDA</a>
+                </div>
+                <div class="w3-third ">
+                    <a class="w3-button w3-teal" style="width:80%;" href="#contact" onclick="w3_close()"><i class="fa fa-envelope fa-fw w3-margin-right"></i>İLETİŞİM</a>
+                </div>
+
+
+            </div>
+        </header>
+        <div class="w3-container">
+            <div class="w3-section w3-bottombar"></div>
+            <br />
+            <h3><b>Masaüstü Projeler</b></h3>
+            <div class="w3-section w3-bottombar"></div>
+        </div>
+        <!-- First Photo Grid-->
+        <div class="w3-row-padding">
+            <div class="w3-third w3-container w3-margin-bottom">
+                <img src="./files/bakimbilgi.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>Bakım Bilgi Sistemi</b></p>
+                    <p>Medikal Cihazların bakım onarım işlemlerini takip etmek için hazırlanmıs lokal ağ üzerinde çalısan bir program. İş ve işlem kayıtlarının tutulmasını, belge hazırlanması sağlar. </p>
+                </div>
+            </div>
+            <div class="w3-third w3-container w3-margin-bottom">
+                <img src="./files/ikmalci1.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>İkmalci Sarf Malzeme</b></p>
+                    <p>Tıbbi ilaç ve malzemelerin depolama ve kullanma süreçlerini takip etmek için hazırlanmış bir programdır. Malzemelere ait işlem süreçlerine ait kayıtlar tutulabilir, belgeler hazırlanabilir. </p>
+                </div>
+            </div>
+            <div class="w3-third w3-container">
+                <img src="./files/dershane1.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>Dershane Otomasyon Sistemi</b></p>
+                    <p>Eğitim alan ögrencilere ait her türlü bilginin tutulmasını sağlayan bir program. Sınav sonuç değerlendirme ve öğrenci takibi yapmak için hazırlanmıştır.</p>
+                </div>
+            </div>
+
+        </div>
+        <br />
+        <!-- Second Photo Grid-->
+        <div class="w3-row-padding">
+            <div class="w3-third w3-container w3-margin-bottom">
+                <img src="./files/ceptensms1.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>Cepten SMS</b></p>
+                    <p>İnternet servislerini kullanmak yerine cep telefonu ile kurulan bağlantı vasıtasıyla cep telefonu hattındaki sahip olunan sms ler kullanılır. Toplu sms ler gönderilebilir. </p>
+                </div>
+            </div>
+            <div class="w3-third w3-container w3-margin-bottom">
+                <img src="./files/kurbanlik1.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>Kurbanlık Satış </b></p>
+                    <p>Kesim yerlerindeki işlemleri planlama ve müşteri hisselerini takip etmek için hazırlanmış bir programdır. Raporlama ve muhasebe takibi vardır.</p>
+                </div>
+            </div>
+            <div class="w3-third w3-container">
+                <img src="./files/bakimform1.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>Cihaz Bakım Formarı Hazırlama  </b></p>
+                    <p>Bakım yapılması gereken cihazlar için standart bakım kalemleri ile bakım kontrol listeleri hazırlayabilmek için tasarlanmış bir programdır.</p>
+                </div>
+            </div>
+
+        </div>
+        <br />
+
+        <!-- Third Photo Grid-->
+        <div class="w3-row-padding">
+            <div class="w3-third w3-container w3-margin-bottom">
+                <img src="./files/barkodolustur1.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>Barkod Oluştur Yazdır</b></p>
+                    <p>Ürünlere ait bilgileri girerek ürün barkodlu etiketleri oluşturulabilir ve yazdırılabilir. Böylece raflarda bulunan ürünlerin barkod okuyucu ile okuma işlemi yapılabilir.</p>
+                </div>
+            </div>
+            <div class="w3-third w3-container w3-margin-bottom">
+                <img src="./files/kasamuhasebe1.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>Kasa Muhasebesi</b></p>
+                    <p>İşletmelerin kasa muhasebe kayıtlarını giderler ve gelirler biçiminde önceden set edilen kalemlerde tutmalarını ve raporlar almalarını saglayan bir uygulamadır. </p>
+                </div>
+            </div>
+
+            <div class="w3-third w3-container">
+                <img src="./files/kopyalacevir1.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>Kopyala Çevir Kaydet</b></p>
+                    <p>Bilgisayar ortamında seçilen metin kopyalandığında istenen dile translate işlemi yapılır. Pratik kullanım imkani nedeniyle dil öğrenimi esnasında çok faydalıdır.</p>
+                </div>
+            </div>
+
+        </div>
+        <br />
+
+        <!-- Fourth Photo Grid-->
+        <div class="w3-row-padding">
+            <div class="w3-third w3-container w3-margin-bottom">
+                <img src="./files/elektrikguvenlik1.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>Elektriksel Güvenlik Test Cihazı Raporlama Programı</b></p>
+                    <p>Fluke 601 Series elektriksel güvenlik test cihazı test sonuçlarını raporlamak için hazırlanmış bir uygulamadır. Ayrıca veriler veritabanında saklanır.</p>
+                </div>
+            </div>
+            <div class="w3-third w3-container w3-margin-bottom">
+                <img src="./files/x24c44_1.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>X24C44 Entegre Programlayıcı</b></p>
+                    <p>Bilgisayar ve basit bir devre yardımı ile X24C44 entegre devresinin verilerinin okunması ve yazılmasını saglayan bir programdır.</p>
+                </div>
+            </div>
+
+        </div>
+        <br />
+        <div class="w3-container">
+            <br />
+            <h3><b>Mobil Android Projeleri</b></h3>
+            <div class="w3-section w3-bottombar"></div>
+        </div>
+        <!-- First Photo Grid-->
+        <div class="w3-row-padding">
+            <div class="w3-third w3-container w3-margin-bottom">
+                <img src="./files/calartv.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>Çalar TV</b></p>
+                    <p>Televizyon yayınlarının takip edilmesi ve kullanıcıya program başlamadan önce bildirim yollanması için tasarlanmış Android uygulamadır.</p>
+                </div>
+            </div>
+            <div class="w3-third w3-container w3-margin-bottom">
+                <img src="./files/leylamecnun.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>Leyla ile Mecnun Replikleri</b></p>
+                    <p>Popüler bir Tv dizisi olan Leyla ile Mecnun adlı dizideki karakterlerin kullandıkları replikleri kullanıcılara dinleme paylaşma imkanı verir.</p>
+                </div>
+            </div>
+            <div class="w3-third w3-container">
+                <img src="./files/geometri.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>Geometri 1 </b></p>
+                    <p>Geometri formüllerinin bir arada bulunduğu ve hemen ulaşılabilecek bir kaynak olarak özellikle ögrenciler için tasarlanmış bir Android uygulamadır.</p>
+                </div>
+            </div>
+        </div>
+        <br />
+        <!-- Second Photo Grid-->
+        <div class="w3-row-padding">
+            <div class="w3-third w3-container w3-margin-bottom">
+                <img src="./files/barkodoku1.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>Bluetooth Qr-Barcode Reader + PC BT Server </b></p>
+                    <p>Telefonu Barkod okuyucu cihaz gibi kullanmak üzere hazırlanmış Android uygulamadır. Verilerin alınacağı Pc de Bluetooth Server uygulaması çalıştırılır.</p>
+                </div>
+            </div>
+            <div class="w3-third w3-container w3-margin-bottom">
+                <img src="./files/icerde1.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>İçerde Replikleri</b></p>
+                    <p>Popüler bir Tv dizisi olan İçerde adlı dizideki karakterlerin kullandıkları replikleri kullanıcılara dinleme ve paylaşma imkanı verir.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="w3-container">
+            <br />
+            <div class="w3-section w3-bottombar" id="about"></div>
+        </div>
+        <!-- Images of Me -->
+        <div class="w3-row-padding w3-padding-16">
+            <div class="w3-col m6">
+                <img src="./files/source.jpg" alt="Me" style="width:100%">
+            </div>
+            <div class="w3-col m6">
+                <img src="./files/coder.jpg" alt="Me" style="width:100%">
+            </div>
+        </div>
+
+        <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+            <h4><b>HAKKIMDA</b></h4>
+            <p>Bilgisayar ve programlama ile ilgim lise yıllarında başladı. Tabi o zamanlar Pc tabanlı cihazlar ülkemde yeni yeni piyasaya çıkmış durumda. O zamanlar Commodore diye adlandırılan ve kullanıcılara sadece Basic programlama ve ayrıca Makina dili / Assembly kodlama imkanı veren bir bilgisayara sahiptim. </p>
+            <p>Sonrasında Basic Pogramlama dilinin farklı türleriyle GWBasic, Qbasic, Visual Basic ile ilgilendim. Ms-Dos, Windows, Linux İşletim Sistemleri hakkında merakımı gidermeye çalıştım. Delphi ile tanışmam farklı bir boyuta taşıdı beni. Veritabanları ve Sql dili ise yazdığım programlara ayrı bir anlam kattı. Web üzerindeki bilgi paylaşım teknolojisi de ilgimi çekti.  </p>
+            <p>Borland firmasının kapanması ile popülerliğini yitiren Delphi den sonra Visual Studio Ide 'si ile C# Programlama dilini kodlamalarda kullanmaya başladım. Asp.Net teknolojisinin sağladığı kolaylıklarla aktif web sayfaları hazırlanabiliyordu. Ayrıca kolay veritabanı entegrasyonu etkileyiciydi.</p>
+            <p>Cep telefonlarındaki gelişmeler ve herkesin elinde bir bilgisayar olması düşünçesi ise tüm yazılımcılara hazırladıkları ürünleriyle sadece firmalara değil insanlara da ulaşma imkanı sağladi. Eclipse ve Anroid Studio ile Java Programlama dili aracılığı ile Android işletim sistemli telefonlar için program yazmaya böyle baslamış oldum. Python ile tanışmam son yıllarda oldu. Kolay kodlama ve geniş kütüphanesi ile herkes gibi benimde ilgimi çekmişti.</p>
+            <p>Bilgisayar ve Yazılım alanındaki merak ve ilgim nedeniyle hep yeni teknolojileri takip etmeye  çalıştım. Bundan sonra hayatımda da yeniliklere açık bir şekilde gelişmeleri takip ederek kendimi güncel tutarak çağa ayak uydurmak düşüncesindeyim.</p>
+            <hr>
+
+            <p>
+                <span class="w3-tag w3-grey w3-margin-bottom">Html</span>
+                <span class="w3-tag w3-grey w3-margin-bottom">Css</span>
+                <span class="w3-tag w3-grey w3-margin-bottom">JavaScript</span>
+                <span class="w3-tag w3-grey w3-margin-bottom">Asp</span>
+                <span class="w3-tag w3-grey w3-margin-bottom">VB</span>
+                <span class="w3-tag w3-grey w3-margin-bottom">Delphi</span>
+                <span class="w3-tag w3-grey w3-margin-bottom">Visual Studio</span>
+                <span class="w3-tag w3-grey w3-margin-bottom">C#</span>
+                <span class="w3-tag w3-grey w3-margin-bottom">Asp.Net</span>
+                <span class="w3-tag w3-grey w3-margin-bottom">Sql</span>
+                <span class="w3-tag w3-grey w3-margin-bottom">Mssql</span>
+                <span class="w3-tag w3-grey w3-margin-bottom">Android Studio</span>
+                <span class="w3-tag w3-grey w3-margin-bottom">Java</span>
+                <span class="w3-tag w3-grey w3-margin-bottom">Python</span>
+            </p>
+
+            <h4>Teknik Beceriler</h4>
+            <ul>
+                <li>Microsoft Sertifikalı Profesyonel MCP 070-210</li>
+                <li>Linux İşletim Sistemi </li>
+                <li>Microsoft Windows İşletim Sistemi 98</li>
+                <li>Microsoft Windows İşletim Sistemi XP</li>
+                <li>Windows 2000 Sunucu Sistemleri Yönetimi</li>
+                <li>Bilgisayar Okuryazarlığı</li>
+                <li>Bilgisayar İngilizcesi</li>
+                <li>MS Office 2000</li>
+                <li>Bilgisayar Ağları</li>
+                <li>HTML</li>
+                <li>Javascripts</li>
+                <li>Xml</li>
+                <li>Sql Dili İfadeleri</li>
+                <li>MSSQL Sunucu 2000</li>
+                <li>MS Visual Basic 6</li>
+                <li>Delphi 4.0 Programlama Dili </li>
+                <li>Python 3 </li>
+                <li>Python ile Veri Bilimi</li>
+                <li>HTML JavaScript & Bootstrap</li>
+            </ul>
+            <hr>
+
+        </div>
+
+        <!-- Contact Section -->
+        <div class="w3-container w3-padding-large w3-grey">
+            <h4 id="contact"><b>İLETİŞİM</b></h4>
+            <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
+                <div class="w3-third w3-dark-grey">
+                    <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
+                    <p>muratkahraman.de@gmail.com</p>
+                </div>
+                <div class="w3-third w3-teal">
+                    <p><i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i></p>
+                    <p>Almanya</p>
+                </div>
+                <div class="w3-third w3-dark-grey">
+                    <p><i class="fa fa-xing-square w3-xxlarge w3-text-light-grey"></i></p>
+                    <p><a href="https://www.xing.com/profile/Murat_Kahraman52">XING - Murat Kahraman</a></p>
+                </div>
+            </div>
+            <hr class="w3-opacity">
+
+        </div>
+
+    </div>
+
+    <script>
+        // Script to open and close sidebar
+        function w3_open() {
+            document.getElementById("mySidebar").style.display = "block";
+            document.getElementById("myOverlay").style.display = "block";
+        }
+
+        function w3_close() {
+            document.getElementById("mySidebar").style.display = "none";
+            document.getElementById("myOverlay").style.display = "none";
+        }
+    </script>
+
+
+    <div class="betternet-wrapper"></div>
+</body>
+</html>

@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Murat Kahraman</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./files/site.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body, h1, h2, h3, h4, h5, h6 {
+            font-family: "Raleway", sans-serif
+        }
+    </style>
+</head>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+    <!-- Sidebar/menu -->
+    <nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index: 3; width: 300px; display: none;" id="mySidebar">
+        <br>
+        <div class="w3-container">
+            <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+                <i class="fa fa-remove"></i>
+            </a>
+            <img src="./files/avatar_g2.jpg" title="Murat Kahraman" style="width:45%;" class="w3-round"><br><br>
+            <h4><b>Murat Kahraman</b></h4>
+            <p class="w3-text-grey">Software Developer</p>
+        </div>
+        <div class="w3-bar-block">
+            <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PROJECTS</a>
+            <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT ME</a>
+            <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a>
+        </div>
+
+    </nav>
+
+    <!-- Overlay effect when opening sidebar on small screens -->
+    <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor: pointer; display: none;" title="close side menu" id="myOverlay"></div>
+
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-main" style="margin-left:300px">
+
+        <!-- Header -->
+        <header id="portfolio">
+            <a href="#"><img src="./files/avatar_g2.jpg" title="Murat Kahraman" style="width: 65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+            <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+            <div class="w3-container">
+                <div></div>
+
+                <div class="clearfix">
+                    <div class="img-container1">
+                        <h1><b>PROJECTS</b></h1>
+                    </div>
+                    <div class="img-container">
+                        <a class="w3-white lang" href="index.html" onclick="w3_close()">DE&nbsp;</a>
+                        <!--<img src="./files/deutsch.png" style="width:90%" alt="Alternate Text" />-->
+                    </div>
+                    <div class="img-container">
+                        <a class="w3-black lang" href="index_eng.html" onclick="w3_close()">ENG&nbsp;</a>
+                        <!--<img src="./files/englisch.png" style="width:90%" alt="Alternate Text" />-->
+                    </div>
+                    <div class="img-container">
+                        <a class="w3-white lang" href="index_tr.html" onclick="w3_close()">TR&nbsp;</a>
+                        <!--<img src="./files/turkce.png" style="width:90%" alt="Alternate Text" />-->
+                    </div>
+
+                </div>
+
+
+
+                <div class="w3-section w3-padding"></div>
+                <div class="w3-third ">
+                    <a class="w3-button w3-black" style="width:80%;" href="#portfolio" onclick="w3_close()"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PROJECTS</a>
+                </div>
+                <div class="w3-third ">
+                    <a class="w3-button w3-white" style="width:80%;" href="#about" onclick="w3_close()"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT ME</a>
+                </div>
+                <div class="w3-third ">
+                    <a class="w3-button w3-teal" style="width:80%;" href="#contact" onclick="w3_close()"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a>
+                </div>
+
+
+            </div>
+        </header>
+        <div class="w3-container">
+            <div class="w3-section w3-bottombar"></div>
+            <br />
+            <h3><b>Desktop Projects</b></h3>
+            <div class="w3-section w3-bottombar"></div>
+        </div>
+        <!-- First Photo Grid-->
+        <div class="w3-row-padding">
+            <div class="w3-third w3-container w3-margin-bottom">
+                <img src="./files/bakimbilgi.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>Maintenance Information System</b></p>
+                    <p>A program that works on a local network, prepared to follow the maintenance and repair processes of Medical Devices. It allows keeping business and transaction records and preparing documents.</p>
+                </div>
+            </div>
+            <div class="w3-third w3-container w3-margin-bottom">
+                <img src="./files/ikmalci1.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>Supplier - Medicine and material</b></p>
+                    <p>It is a program prepared to follow the storage and use processes of medical drugs and materials. Records and documents of the processing processes of materials can be prepared.</p>
+                </div>
+            </div>
+            <div class="w3-third w3-container">
+                <img src="./files/dershane1.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>Course Center Automation System</b></p>
+                    <p>A program that allows keeping all kinds of information belonging to the students studying in the course center. It provides evaluation of students and Exam results.</p>
+                </div>
+            </div>
+
+        </div>
+        <br />
+        <!-- Second Photo Grid-->
+        <div class="w3-row-padding">
+            <div class="w3-third w3-container w3-margin-bottom">
+                <img src="./files/ceptensms1.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>SMS from Mobile Phone</b></p>
+                    <p>Instead of using expensive Internet services, it allows to use sms on the mobile phone line. It does this by connection between PC and mobile phone. Bulk sms can be sent.</p>
+                </div>
+            </div>
+            <div class="w3-third w3-container w3-margin-bottom">
+                <img src="./files/kurbanlik1.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>Slaughterhouse Automation System</b></p>
+                    <p>It is a program prepared for planning the transactions in the slaughtering places and following the customer shares. It has Accounting and Reporting feature.</p>
+                </div>
+            </div>
+            <div class="w3-third w3-container">
+                <img src="./files/bakimform1.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>Preparation of Device Maintenance Forms</b></p>
+                    <p>It is a program designed to prepare maintenance checklists using standard maintenance items for devices that need maintenance.</p>
+                </div>
+            </div>
+
+        </div>
+        <br />
+
+        <!-- Third Photo Grid-->
+        <div class="w3-row-padding">
+            <div class="w3-third w3-container w3-margin-bottom">
+                <img src="./files/barkodolustur1.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>Generate-Print Barcode</b></p>
+                    <p>Product barcode labels can be created and printed by entering the information about the products. Thus, all products can be read with a barcode reader.</p>
+                </div>
+            </div>
+            <div class="w3-third w3-container w3-margin-bottom">
+                <img src="./files/kasamuhasebe1.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>Cash Accounting</b></p>
+                    <p>It is an application that allows businesses to keep cash accounting records in the form of expenses and incomes in pre-set items and get reports.</p>
+                </div>
+            </div>
+
+            <div class="w3-third w3-container">
+                <img src="./files/kopyalacevir1.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>Copy-Translate-Save</b></p>
+                    <p>When the text selected in the computer environment is copied, the translation into the desired language is performed. Due to its practical use, it is very useful during language learning.</p>
+                </div>
+            </div>
+
+        </div>
+        <br />
+
+        <!-- Fourth Photo Grid-->
+        <div class="w3-row-padding">
+            <div class="w3-third w3-container w3-margin-bottom">
+                <img src="./files/elektrikguvenlik1.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>Electrical Safety Tester Reporting Program</b></p>
+                    <p>The Fluke 601 Series electrical safety tester is an application for reporting test results. In addition, the data is stored in the database.</p>
+                </div>
+            </div>
+            <div class="w3-third w3-container w3-margin-bottom">
+                <img src="./files/x24c44_1.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>X24C44 Integrated Programmer</b></p>
+                    <p>It is a program that allows reading and writing the data of the X24C44 integrated circuit with the help of a computer and a simple circuit.</p>
+                </div>
+            </div>
+
+        </div>
+        <br />
+        <div class="w3-container">
+            <br />
+            <h3><b>Mobile Android Projects</b></h3>
+            <div class="w3-section w3-bottombar"></div>
+        </div>
+        <!-- First Photo Grid-->
+        <div class="w3-row-padding">
+            <div class="w3-third w3-container w3-margin-bottom">
+                <img src="./files/calartv.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>TV Reminder</b></p>
+                    <p>It is an Android application designed to give information about television broadcasts and to notify the user before the program starts.</p>
+                </div>
+            </div>
+            <div class="w3-third w3-container w3-margin-bottom">
+                <img src="./files/leylamecnun.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>Quotes from TV series "Leyla ile Mecnun"</b></p>
+                    <p>It gives users the opportunity to listen and share the lines used by the characters in the popular TV series Leyla and Mecnun.</p>
+                </div>
+            </div>
+            <div class="w3-third w3-container">
+                <img src="./files/geometri.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>Geometry 1</b></p>
+                    <p>It is an Android application that is designed especially for students as a source of geometry formulas and can be accessed immediately.</p>
+                </div>
+            </div>
+        </div>
+        <br />
+        <!-- Second Photo Grid-->
+        <div class="w3-row-padding">
+            <div class="w3-third w3-container w3-margin-bottom">
+                <img src="./files/barkodoku1.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>Bluetooth Qr-Barcode Reader + PC BT Server</b></p>
+                    <p>It is an Android application designed to use the phone as a barcode reader device. The Bluetooth Server application is run on the PC from which the data will be received.</p>
+                </div>
+            </div>
+            <div class="w3-third w3-container w3-margin-bottom">
+                <img src="./files/icerde1.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>Quotes from TV series "İçerde"</b></p>
+                    <p>It gives users the opportunity to listen and share the lines used by the characters in the popular TV series İçerde.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="w3-container">
+            <br />
+            <div class="w3-section w3-bottombar" id="about"></div>
+        </div>
+        <!-- Images of Me -->
+        <div class="w3-row-padding w3-padding-16">
+            <div class="w3-col m6">
+                <img src="./files/source.jpg" alt="Me" style="width:100%">
+            </div>
+            <div class="w3-col m6">
+                <img src="./files/coder.jpg" alt="Me" style="width:100%">
+            </div>
+        </div>
+
+        <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+            <h4><b>ABOUT ME</b></h4>
+            <p>My interest in computers and programming started in my high school years. Of course, at that time, PC-based devices were just launched in my country. At that time I had a computer called Commodore which allowed users only Basic programming and also Machine language / Assembly coding.</p>
+            <p>Then I dealt with the different types of Basic programming language GWBasic, Qbasic, Visual Basic. I tried to satisfy my curiosity about Ms-Dos, Windows, Linux Operating Systems. Meeting Delphi took me to a different dimension. Databases and Sql language added a different meaning to the programs I wrote. I was also interested in information sharing technology on the web.</p>
+            <p>After Delphi, which lost its popularity with the closure of Borland company, I started to use C# Programming language in coding with Visual Studio ide. Active web pages could be prepared with the ease provided by Asp.Net technology. Also, the easy database integration was impressive.</p>
+            <p>The developments in mobile phones and the idea of ​​having a computer in everyone's hands provided all software developers with the opportunity to reach not only companies but also people with the products they prepared. This is how I started to write programs for phones with Android operating system through Eclipse and Anroid Studio and Java Programming language. I was introduced to Python in recent years. With its easy coding and large library, it intrigued me like everyone else.</p>
+            <p>Because of my curiosity and interest in computers and software, I always tried to follow new technologies. From now on, I am thinking of keeping up with the times by keeping myself up to date by following the developments openly to innovations in my life.</p>
+            <hr>
+
+            <p>
+                <span class="w3-tag w3-grey w3-margin-bottom">Html</span>
+                <span class="w3-tag w3-grey w3-margin-bottom">Css</span>
+                <span class="w3-tag w3-grey w3-margin-bottom">JavaScript</span>
+                <span class="w3-tag w3-grey w3-margin-bottom">Asp</span>
+                <span class="w3-tag w3-grey w3-margin-bottom">VB</span>
+                <span class="w3-tag w3-grey w3-margin-bottom">Delphi</span>
+                <span class="w3-tag w3-grey w3-margin-bottom">Visual Studio</span>
+                <span class="w3-tag w3-grey w3-margin-bottom">C#</span>
+                <span class="w3-tag w3-grey w3-margin-bottom">Asp.Net</span>
+                <span class="w3-tag w3-grey w3-margin-bottom">Sql</span>
+                <span class="w3-tag w3-grey w3-margin-bottom">Mssql</span>
+                <span class="w3-tag w3-grey w3-margin-bottom">Android Studio</span>
+                <span class="w3-tag w3-grey w3-margin-bottom">Java</span>
+                <span class="w3-tag w3-grey w3-margin-bottom">Python</span>
+            </p>
+
+            <h4>Technical Skills</h4>
+            <ul>
+                <li>Microsoft Certified Professional MCP 070-210</li>
+                <li>Linux Operating System </li>
+                <li>Microsoft Windows Operating System 98</li>
+                <li>Microsoft Windows Operating System XP</li>
+                <li>Windows 2000 Server System Management</li>
+                <li>Computer Literacy</li>
+                <li>Computer English</li>
+                <li>MS Office 2000</li>
+                <li>Computer Networks</li>
+                <li>HTML</li>
+                <li>Javascripts</li>
+                <li>Xml</li>
+                <li>Sql Language Statements</li>
+                <li>MS SQL Server 2000</li>
+                <li>MS Visual Basic 6</li>
+                <li>Delphi 4.0 Programming Language</li>
+                <li>Python 3 </li>
+                <li>Data Science with Python</li>
+                <li>HTML JavaScript & Bootstrap</li>
+            </ul>
+            <hr>
+
+        </div>
+
+        <!-- Contact Section -->
+        <div class="w3-container w3-padding-large w3-grey">
+            <h4 id="CONTACT"><b>Contact Me</b></h4>
+            <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
+                <div class="w3-third w3-dark-grey">
+                    <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
+                    <p>muratkahraman.de@gmail.com</p>
+                </div>
+                <div class="w3-third w3-teal">
+                    <p><i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i></p>
+                    <p>Germany</p>
+                </div>
+                <div class="w3-third w3-dark-grey">
+                    <p><i class="fa fa-xing-square w3-xxlarge w3-text-light-grey"></i></p>
+                    <p><a href="https://www.xing.com/profile/Murat_Kahraman52">XING - Murat Kahraman</a></p>
+                </div>
+            </div>
+            <hr class="w3-opacity">
+
+        </div>
+
+    </div>
+
+    <script>
+        // Script to open and close sidebar
+        function w3_open() {
+            document.getElementById("mySidebar").style.display = "block";
+            document.getElementById("myOverlay").style.display = "block";
+        }
+
+        function w3_close() {
+            document.getElementById("mySidebar").style.display = "none";
+            document.getElementById("myOverlay").style.display = "none";
+        }
+    </script>
+
+
+    <div class="betternet-wrapper"></div>
+</body>
+</html>
